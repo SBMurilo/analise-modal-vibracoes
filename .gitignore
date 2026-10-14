@@ -5,3 +5,4 @@ venv/
 Graficos/
 *.png
 *.xlsx
+!docs/*.png
