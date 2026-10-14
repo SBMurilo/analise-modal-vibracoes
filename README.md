@@ -13,6 +13,14 @@ Gera um **diagrama de Campbell** a partir das frequências naturais obtidas em u
 - Exporta o gráfico em **PNG** (alta resolução) e os dados em **Excel**.
 - Interface em **português, inglês e espanhol**; roda em janela própria (pywebview) ou no navegador.
 
+![Diagrama de Campbell com zona de operação e tabela de cruzamentos](docs/diagrama-campbell.png)
+
+*Diagrama gerado com dados de exemplo: linhas tracejadas são as frequências naturais (M01–M10), as inclinadas são as harmônicas, a faixa cinza é a zona de operação e os pontos vermelhos são os RPM críticos dentro dela.*
+
+![Tela inicial de entrada de dados](docs/tela-inicial.png)
+
+*Tela inicial: parâmetros de operação, harmônicas, limiar de MPF e tabela de frequências naturais (aceita colar direto do Excel).*
+
 O código é modular (`layout`, `callbacks_*`, `figure`, `compute`, `tables`...), com controle de revisões no cabeçalho de cada arquivo.
 
 ```bash
